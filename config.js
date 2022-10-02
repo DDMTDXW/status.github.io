@@ -2,7 +2,7 @@
 window.Config = {
 
   // 站点名
-  SiteName: 'DDMTDXW's blog Status',
+  SiteName: 'Uptime Status',
 
   // 站点链接
   SiteUrl: '/',
@@ -18,6 +18,7 @@ window.Config = {
   ApiKeys: [
     'm791826177-cc3346fed5e703681f3136d8',
     'm791826270-98d633a8d59d95c2bb92e312',
+    'm791826282-65a4f5f305e99b0a2254d9f8',
     'm791826278-66bfdc0240d690ee813b4630',
     'm791826274-dcdf0b9ae879abaf614df1ea',
   ],
@@ -28,7 +29,7 @@ window.Config = {
   // 日志天数
   // 虽然免费版说仅保存60天日志，但测试好像API可以获取90天的
   // 不过时间不要设置太长，容易卡，接口请求也容易失败
-  CountDays: 30,
+  CountDays: 60,
 
   // 导航栏菜单
   Navi: [
